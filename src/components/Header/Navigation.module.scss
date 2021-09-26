@@ -1,0 +1,27 @@
+@import "../variables";
+
+.nav {
+  padding-top: 10px;
+
+  .nav-btn {
+    color: $header-btn;
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .nav {
+    padding: 20px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+
+    .nav-btn {
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+}

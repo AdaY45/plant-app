@@ -1,0 +1,56 @@
+@import "../variables";
+
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 183px;
+  background: $green-back;
+  border-radius: 16px;
+
+  .search-block {
+    padding: 20px 0 20px 56px;
+    margin: auto 0;
+
+    h2 {
+      font-size: 32px;
+      color: $green-headline;
+      margin: 0 0 8px;
+    }
+
+    .temperature {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0 0 16px;
+    }
+
+    .search-input {
+      background: url("../../imgs/icons/search.svg") no-repeat scroll 10px 10px;
+      background-position: 97%;
+      background-color: #ffffff;
+      padding: 16px;
+      border-radius: 12px;
+      border: none;
+      width: 80%;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .search-section {
+    display: block;
+    margin: 24px 16px;
+    .search-block {
+      padding: 16px;
+
+      .search-input {
+        width: 100%;
+      }
+    }
+    .img {
+      display: none;
+    }
+  }
+}

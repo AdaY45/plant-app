@@ -1,0 +1,38 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 175px;
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.1),
+    0px 0.4px 6.5px rgba(0, 0, 0, 0.05);
+
+  button {
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .search {
+    cursor: pointer;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and(max-width: 1100px) {
+  .header {
+    padding: 16px;
+
+    .profile-img {
+      display: none;
+    }
+    .menu {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@import "../variables";
+
+.article {
+  margin: 0;
+  img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  .info {
+    font-size: 16px;
+    font-weight: 400;
+    color: $article-info;
+    margin: 16px 0 8px;
+  }
+
+  .head {
+    font-size: 24px;
+    font-weight: 700;
+    color: $headline;
+    margin: 8px 0;
+  }
+
+  .detailed-info {
+    font-size: 16px;
+    font-weight: 400;
+    color: $article-desc;
+  }
+}
+
+.direction {
+  display: flex;
+  justify-content: space-between;
+
+  .text {
+    margin-left: 32px;
+    .info {
+        margin-top: 0;
+      }
+    .head {
+      font-size: 48px;
+      font-weight: 700;
+      margin: 0 0 16px;
+    }
+  }
+}
+
+.interesting, .search {
+    width: 31%;
+}
+
+@media screen and (max-width: 1100px) {
+    .direction {
+        flex-direction: column;
+
+        .text {
+            margin-left: 0;
+            margin-top: 16px;
+        }
+    }
+    .interesting, .search {
+        width: 100%;
+    }
+}
