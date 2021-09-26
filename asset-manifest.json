@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/AdaY45/plant-app.git/static/css/main.fb17c201.chunk.css",
+    "main.js": "/AdaY45/plant-app.git/static/js/main.342b430b.chunk.js",
+    "main.js.map": "/AdaY45/plant-app.git/static/js/main.342b430b.chunk.js.map",
+    "runtime-main.js": "/AdaY45/plant-app.git/static/js/runtime-main.80f686e0.js",
+    "runtime-main.js.map": "/AdaY45/plant-app.git/static/js/runtime-main.80f686e0.js.map",
+    "static/js/2.076950c4.chunk.js": "/AdaY45/plant-app.git/static/js/2.076950c4.chunk.js",
+    "static/js/2.076950c4.chunk.js.map": "/AdaY45/plant-app.git/static/js/2.076950c4.chunk.js.map",
+    "static/js/3.e06a2cd5.chunk.js": "/AdaY45/plant-app.git/static/js/3.e06a2cd5.chunk.js",
+    "static/js/3.e06a2cd5.chunk.js.map": "/AdaY45/plant-app.git/static/js/3.e06a2cd5.chunk.js.map",
+    "index.html": "/AdaY45/plant-app.git/index.html",
+    "static/css/main.fb17c201.chunk.css.map": "/AdaY45/plant-app.git/static/css/main.fb17c201.chunk.css.map",
+    "static/js/2.076950c4.chunk.js.LICENSE.txt": "/AdaY45/plant-app.git/static/js/2.076950c4.chunk.js.LICENSE.txt",
+    "static/media/Main.module.scss": "/AdaY45/plant-app.git/static/media/flag.51ad685a.svg",
+    "static/media/interesting1.f5c9958a.jpg": "/AdaY45/plant-app.git/static/media/interesting1.f5c9958a.jpg",
+    "static/media/interesting2.940ac85d.jpg": "/AdaY45/plant-app.git/static/media/interesting2.940ac85d.jpg",
+    "static/media/interesting3.af3c1fbc.jpg": "/AdaY45/plant-app.git/static/media/interesting3.af3c1fbc.jpg",
+    "static/media/logo.5ec419f8.svg": "/AdaY45/plant-app.git/static/media/logo.5ec419f8.svg",
+    "static/media/menu.ad5b95f9.svg": "/AdaY45/plant-app.git/static/media/menu.ad5b95f9.svg",
+    "static/media/new-image.20b87c43.jpg": "/AdaY45/plant-app.git/static/media/new-image.20b87c43.jpg",
+    "static/media/paint1.66ec9749.svg": "/AdaY45/plant-app.git/static/media/paint1.66ec9749.svg",
+    "static/media/paint2.1301e99e.svg": "/AdaY45/plant-app.git/static/media/paint2.1301e99e.svg",
+    "static/media/profile.6d2a331f.svg": "/AdaY45/plant-app.git/static/media/profile.6d2a331f.svg",
+    "static/media/search-header.ebbe1d1f.svg": "/AdaY45/plant-app.git/static/media/search-header.ebbe1d1f.svg",
+    "static/media/Search.module.scss": "/AdaY45/plant-app.git/static/media/search.4e980fff.svg",
+    "static/media/totd1.3259de6f.jpg": "/AdaY45/plant-app.git/static/media/totd1.3259de6f.jpg",
+    "static/media/totd2.c1598e5d.jpg": "/AdaY45/plant-app.git/static/media/totd2.c1598e5d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80f686e0.js",
+    "static/js/2.076950c4.chunk.js",
+    "static/css/main.fb17c201.chunk.css",
+    "static/js/main.342b430b.chunk.js"
+  ]
+}
