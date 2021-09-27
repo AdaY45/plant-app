@@ -2,14 +2,14 @@
 
 .loading {
   .img {
-    width: 350px;
+    width: 300px;
     height: 250px;
     background: $loading;
     border-radius: 12px;
   }
 
   .info {
-    width: 160px;
+    width: 110px;
     height: 10px;
     background-color: $loading;
     margin: 16px 0;
@@ -17,18 +17,43 @@
   }
 
   .head {
-    width: 229px;
+    width: 180px;
     height: 23px;
     background-color: $loading;
     border-radius: 4px;
   }
 
   .desc {
-    width: 337px;
+    width: 290px;
     height: 78px;
     margin: 8px 0;
     background-color: $loading;
     border-radius: 4px;
+  }
+}
+
+@media screen and(max-width: 1400px) {
+  .loading {
+    .img {
+      width: 200px;
+      height: 250px;
+    }
+
+    .info {
+      width: 30px;
+      height: 15px;
+    }
+
+    .head {
+      width: 80px;
+      height: 20px;
+    }
+
+    .desc {
+    margin-top: 30px;
+      width: 137px;
+      height: 68px;
+    }
   }
 }
 
