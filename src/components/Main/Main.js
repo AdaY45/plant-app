@@ -107,7 +107,6 @@ const Main = () => {
     const windowBottom = windowHeight + window.pageYOffset;
 
     if (windowBottom >= docHeight - 1) {
-      console.log("at the bottom");
       setIsLoading(true);
       setTimeout(() => {
         setArticles(
